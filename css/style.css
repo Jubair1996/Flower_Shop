@@ -22,7 +22,8 @@
 }
 .feature-title,
 .instagram-title,
-.footer-title {
+.footer-title,
+.news-title {
   color: #272727;
   margin-bottom: 24px;
   font-family: Lato;
@@ -31,7 +32,8 @@
 }
 .feature-description,
 .instagram-description,
-.footer-description {
+.footer-description,
+.news-description {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-size: 18px;
@@ -222,23 +224,44 @@ header {
 }
 input[type="email"] {
   border-radius: 8px;
-  background: #fff;
+  background: #000;
   padding: 12px;
   margin-right: 10px;
   border: 0;
+  color: #ffffff;
 }
 /* Get The Latest Deals Styles Ends */
+/* Newsletter Styles */
+.newsletter-container {
+  /* background-color: gainsboro; */
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.news-description{
+    margin: 10px 0;
+}
+input [type = "email"]{
+    border: 1px solid yellowgreen;
+}
+.news-img img {
+  width: 250px;
+  border-radius: 10px;
+}
 /* Footer Styles */
 footer {
   background-color: #111010;
-  color: rgba(255, 255, 255, 0.40);
+  color: rgba(255, 255, 255, 0.4);
   text-align: center;
   padding: 200px 0 50px 0;
 }
-.footer-title{
-    /* color: #ffffff; */
+.footer-title {
+  color: #ffffff;
 }
-.footer-description{
-    color: rgba(255, 255, 255, 0.90);
-    margin-bottom: 5px;
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 5px;
 }
