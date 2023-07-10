@@ -21,7 +21,8 @@
   margin: 150px 0 45px 0;
 }
 .feature-title,
-.instagram-title {
+.instagram-title,
+.footer-title {
   color: #272727;
   margin-bottom: 24px;
   font-family: Lato;
@@ -29,11 +30,17 @@
   font-weight: 700;
 }
 .feature-description,
-.instagram-description {
+.instagram-description,
+.footer-description {
   color: rgba(39, 39, 39, 0.6);
   font-family: Lato;
   font-size: 18px;
   font-weight: 400;
+}
+.btn:hover {
+  background-color: #272727;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* Header Styles Starts */
 header {
@@ -152,7 +159,8 @@ header {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.deal-off {
+.deal-off,
+.flower {
   color: #e55473;
 }
 .deal-description {
@@ -171,13 +179,66 @@ header {
 }
 /* Hot Deals Styles Ends */
 /* Instagram Styles Starts */
-.instagram-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+.instagram-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-.instagram-container img{
-    width: 220px;
+.instagram-container img {
+  width: 230px;
 }
 /* Instagram Styles Ends */
+/* Get The Latest Deals Styles Starts */
+.latest-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 70%;
+  margin: 100px auto;
+  padding: 100px;
+  border-radius: 8px;
+}
+.latest-title {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.latest-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+input[type="email"] {
+  border-radius: 8px;
+  background: #fff;
+  padding: 12px;
+  margin-right: 10px;
+  border: 0;
+}
+/* Get The Latest Deals Styles Ends */
+/* Footer Styles */
+footer {
+  background-color: #111010;
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  padding: 200px 0 50px 0;
+}
+.footer-title{
+    /* color: #ffffff; */
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 5px;
+}
