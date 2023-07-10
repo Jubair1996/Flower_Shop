@@ -15,6 +15,26 @@
   font-size: 20px;
   font-weight: 700;
 }
+.featured,
+.instagram-info {
+  text-align: center;
+  margin: 150px 0 45px 0;
+}
+.feature-title,
+.instagram-title {
+  color: #272727;
+  margin-bottom: 24px;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+}
+.feature-description,
+.instagram-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
 /* Header Styles Starts */
 header {
   background-color: rgba(229, 84, 115, 0.1);
@@ -55,23 +75,7 @@ header {
 
 /* Header Styles Ends */
 /* Feature Styles Starts */
-.featured {
-  text-align: center;
-  margin: 150px 0 45px 0;
-}
-.feature-title {
-  color: #272727;
-  margin-bottom: 24px;
-  font-family: Lato;
-  font-size: 40px;
-  font-weight: 700;
-}
-.feature-description {
-  color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
-  font-size: 18px;
-  font-weight: 400;
-}
+
 .feature-all-card {
   display: flex;
   justify-content: center;
@@ -148,8 +152,8 @@ header {
   font-weight: 700;
   margin-bottom: 20px;
 }
-.deal-off{
-    color: #e55473;
+.deal-off {
+  color: #e55473;
 }
 .deal-description {
   color: rgba(39, 39, 39, 0.6);
@@ -159,10 +163,21 @@ header {
   margin-bottom: 20px;
   font-weight: 400;
 }
-.deal-btn{
-    text-align: center;
+.deal-btn {
+  text-align: center;
 }
 .deals-img img {
   width: 250px;
 }
 /* Hot Deals Styles Ends */
+/* Instagram Styles Starts */
+.instagram-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.instagram-container img{
+    width: 220px;
+}
+/* Instagram Styles Ends */
