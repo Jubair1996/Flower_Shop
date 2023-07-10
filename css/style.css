@@ -54,3 +54,54 @@ header {
 }
 
 /* Header Styles Ends */
+/* Feature Styles Starts */
+.featured {
+  text-align: center;
+  margin: 150px 0 45px 0;
+}
+.feature-title {
+  color: #272727;
+  margin-bottom: 24px;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+}
+.feature-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+}
+.feature-all-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.feature-img1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.feature-img2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.feature-img3 {
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.feature-img {
+  border-radius: 150px 150px 0 0;
+  padding: 50px;
+  padding-bottom: 0;
+  height: 350px;
+}
+.feature-img img {
+  width: 200px;
+}
+.flower-text {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+/* Feature Styles Ends */
