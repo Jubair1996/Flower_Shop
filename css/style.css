@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* Common Styles */
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 8px 15px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Header Styles Starts */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.banner-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 100px;
+  position: relative;
+}
+.banner-text {
+  margin-top: 100px;
+}
+.banner-text h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 60px;
+  font-weight: 700;
+}
+.banner-text p {
+  width: 50%;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 28px 0;
+}
+.banner-img img {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  padding-right: 100px;
+}
+
+/* Header Styles Ends */
