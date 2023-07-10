@@ -105,3 +105,64 @@ header {
   margin-top: 30px;
 }
 /* Feature Styles Ends */
+/* Day delivery Starts */
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  width: 70%;
+  margin: auto;
+  margin-top: 100px;
+}
+.same,
+.fresh,
+.support {
+  text-align: center;
+}
+.delivery-text {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Day delivery Ends */
+/* Hot Deals Styles Starts */
+.deals-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 70px 200px;
+}
+.deal-title {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.deal-off{
+    color: #e55473;
+}
+.deal-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.deal-btn{
+    text-align: center;
+}
+.deals-img img {
+  width: 250px;
+}
+/* Hot Deals Styles Ends */
